@@ -322,3 +322,8 @@ svg.black { --fill: var(--color-black); }
   transform: translate(-50%, -50%);
   width: var(--svg-di);
 }
+@media screen and (max-width: 797px){
+  .view{
+    margin-top: -30px;
+  }
+}
