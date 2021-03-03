@@ -324,6 +324,6 @@ svg.black { --fill: var(--color-black); }
 }
 @media screen and (max-width: 797px){
   .view{
-    margin-top: -30px;
+    margin-top: 20px;
   }
 }
