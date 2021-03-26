@@ -1,28 +1,4 @@
-:root {
-    --color: #ec7448;
-}
-.container {
-    width: 100%;
-    height: 370px;
-    margin-top: 100px;
-    display: flex;
-}
-.container_1 {
-    background: white;
-    margin: auto auto;
-    width: 70%;
-    height: 50%;
-    border: solid 4px yellow;
-}
-.num1 {
-    background: var(--color, rgb(238, 201, 132));
-    height: 35%;
-}
-.num2 {
-    background: aqua;
-    height: 30%;
-}
-.num3 {
-    background: var(--color, rgb(238, 201, 132));
-    height: 35%;
+button {
+    width: 150px;
+    height: 29px;
 }
