@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Email Validation</title>
-    <!--FontAwesome Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <!--Stylesheet-->
-    <link rel="stylesheet" href="/admiralsimo.github.io/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <label for="email-id">Email Id</label><br>
-        <input type="email" id="email-id" oninput="checker()">
-        <div id="icon">
-           
+    
+        <div class="header">
+            <h1>don't forget</h1>
+            <h2>the equation look like this</h2>
+            <h3>ax<sup>2</sup>+bx+c=0</h3>
         </div>
-        <p id="error-msg">Please Enter A Valid Email Id</p>
-    </div>
+        <div class="form">
+            <input id="num1" type="number" placeholder="enter the value of (a): ">
+            <input id="num2" type="number" placeholder= "enter the value of (b): ">
+            <input id="num3" type="number" placeholder= "enter the value of (c): ">
+            <button onclick="fn1()">get the solution!</button>
+            <div class="output1" id="output1"></div>
+            <div class="output2" id="output2"></div>
+        </div>
 <!--Script-->
-<script src="/admiralsimo.github.io/script/script.js"></script>
+<script src="script/master.js"></script>
 </body>
 </html>
